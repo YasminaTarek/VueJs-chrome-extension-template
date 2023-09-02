@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "VueJs Counter",
+  "description": "Hello from vue js extension",
+  "version": "0.0.1",
+  "permissions": [
+    "storage",
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "image/16x16.png",
+    "48": "image/48x48.png",
+    "128": "image/128x128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  }
+}

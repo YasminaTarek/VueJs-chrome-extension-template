@@ -1,0 +1,28 @@
+body {
+    width: 256px;
+    margin: 12px 24px 16px;
+}
+.title {
+    font-size: 24px;
+    color: #118199;
+    text-align: center;
+}
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1em;
+    border-radius: 4px;
+    border: 0;
+    margin-right: 8px;
+    padding: 6px 0;
+    border: 1px solid #118199;
+    width: 110px;
+    color: #118199;
+    cursor: pointer;
+}
